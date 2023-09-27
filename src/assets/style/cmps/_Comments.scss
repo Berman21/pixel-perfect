@@ -1,0 +1,29 @@
+.comments-container {
+    background-color: $clrPrimary1;
+    padding: 140px;
+
+    .avater {
+        border-radius: 50%;
+        width: 4rem;
+    }
+
+    .quotes {
+        position: relative;
+        top: 38px;
+    }
+
+    p {
+        position: relative;
+        z-index: 1;
+    }
+
+    .cards {
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,20 @@
+$clrPrimary1: rgb(1,78,86);
+$clrPrimary2: rgb(246,126,126);
+$clrPrimary3: rgb(255,255,255);
+$clrSecondary1: rgb(121, 200, 199);
+$clrSecondary2: rgb(44, 98, 105);
+$clrSecondary3: rgb(0, 64, 71);
+$clrSecondary4: rgb(1, 47, 52);
+$clrSecondary5: rgb(0, 37, 41);
+
+// LAYOUT
+$layoutPadding: 165px;
+
+// LAYOUT BREAKPOINTS
+$break-narrow: 600px;
+$break-normal: 960px;
+$break-wide: 1200px;
+
+$padded-break-narrow: $break-narrow + $layoutPadding * 2;
+$padded-break-normal: $break-normal + $layoutPadding * 2;
+$padded-break-wide: $break-wide + $layoutPadding * 2;

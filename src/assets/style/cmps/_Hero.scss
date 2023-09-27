@@ -1,0 +1,12 @@
+.hero{
+    background-color: $clrPrimary1;
+    h2{
+        margin: 0;
+        span{
+            color:$clrPrimary2;
+        }
+    }
+    img{
+        justify-self: end;
+    }
+}
